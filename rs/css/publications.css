@@ -1,0 +1,57 @@
+body{
+  padding:0;
+  margin :0;
+  background: #DCDCDC;
+  overflow-x : auto;
+  overflow-y: auto;
+  font-family: Helvetica, Arial sans-serif;
+}
+section{
+  background-color: #DCDCDC
+}
+h2{
+  font-size:20px;
+  font-family: Courier New;
+  font-weight: bold;
+}
+#cadre{
+  overflow-x: hidden;
+  width: 300%;
+}
+#container {
+ color: black;
+ margin-left: 70px;
+ font-size:50px;
+ font-family: Courier New;
+ font-weight: bold;
+
+ }
+ #inside{
+    width: 80%;
+    margin-left:75px;
+    background: #FFF;
+    font-family: Arial; 
+    margin-bottom: 75px;
+  }
+     #sign{
+     color: black;
+     margin-left: 70px;
+     font-size:25px;
+     font-family: Courier New;
+    }
+
+select{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+

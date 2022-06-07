@@ -1,0 +1,62 @@
+body{
+  padding:0;
+  margin :0;
+  background:#DCDCDC;
+  overflow-x : auto;
+  overflow-y: auto;
+  font-family: Helvetica, Arial sans-serif;
+}
+
+#publier{
+  font-family: Arial;
+  font-size: 28px;
+  margin-left: 28px;
+
+}
+
+ #cadre {
+ color: black;
+ margin-top: 30px;
+ margin-left: 250px;
+ margin-right: 250px;
+ border: 3px solid black;
+ overflow-x : auto;
+  overflow-y: auto;
+ background-color: #FFF;
+ }
+ #textarea {
+ color: black;
+ margin-left: 100px;
+ margin-right: 100px;
+ }
+textarea{
+    padding: 100px;
+    height: 180px;
+    font-size: 26px;
+    width: 100%;  
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing : border-box;
+    overflow-x : auto;
+    overflow-y : auto;
+}
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color:#01d859 ;
+    color: white;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+footer{
+  background-color: #293133;
+  height: 10.2%;
+  font-family: tahoma;
+  border: 0px solid; 
+}

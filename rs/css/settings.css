@@ -1,0 +1,50 @@
+body{
+  padding:0;
+  margin :0;
+  background: #DCDCDC;
+  overflow-x : auto;
+  overflow-y: auto;
+  font-family: Helvetica, Arial sans-serif;
+}
+section{
+  background-color: #DCDCDC
+}
+h2{
+  font-size:20px;
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+#container {
+ color: black;
+ margin-left: 70px;
+ font-size:50px;
+ font-family: Courier New;
+ font-weight: bold;
+
+ }
+ #inside{
+    margin-left:75px;
+    width:40%;
+    padding: 32px;
+    border: 2px solid black;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: Arial; 
+     background-color: #FFF;
+    margin-bottom: 75px;
+  }
+
+input[type=text], textarea, input[type=password],input[type=email],input[type=number] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
